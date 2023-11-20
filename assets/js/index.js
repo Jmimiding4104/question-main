@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-
+import mapData from '../COUNTY_MOI_1090820.json';
 let svg = d3.select("svg");
 
 const g = svg.append("g");
